@@ -248,6 +248,10 @@ button {
     float: left;
 
 }
+.responsive {
+    width: 100%;
+    height: auto;
+  }
 
 .form-center {
     justify-content: center;
