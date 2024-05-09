@@ -8,8 +8,8 @@ body {
   background-color: #f7f9fd;
 }
 .wrapper {
-  width: 90%;
-  font-size: 16px;
+  width: 80%;
+  font-size: 14px;
   max-width: 43.75em;
   margin: 1em auto;
 }
@@ -72,6 +72,7 @@ body {
   box-shadow: 0 0.6em 1.2em rgba(28, 0, 80, 0.06);
   margin: 2em 0;
   padding: 1.2em;
+  width: 70%;
 }
 .output-container p {
   font-weight: 500;
@@ -99,7 +100,7 @@ body {
   padding: 1.8em 1.2em;
   box-shadow: 0 0.6em 1.2em rgba(28, 0, 80, 0.06);
   border-radius: 0.6em;
-  width: 500%;
+  width: 345%;
 }
 .sublist-content {
   width: 100%;
