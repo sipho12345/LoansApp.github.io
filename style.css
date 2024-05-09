@@ -39,11 +39,11 @@ form{
 }
 
 .slider::-webkit-slider-thumb:hover {
-  background: #dc3545;
+  background: #587ef4;
 }
 
 .slider:active::-webkit-slider-thumb {
-  background: #dc3545;
+  background: #587ef4;
 }
 
 .slider::-moz-range-thumb {
@@ -58,11 +58,11 @@ form{
   transition: background 0s ease-in-out;
 }
 .slider::-moz-range-thumb:hover {
-  background: #dc3545;
+  background: #587ef4;
 }
 
 .slider:active::-moz-range-thumb {
-  background: #dc3545;
+  background: #587ef4;
 }
 
 
@@ -101,11 +101,11 @@ form{
 }
 
 .slider2::-webkit-slider-thumb:hover {
-  background: #dc3545;
+  background: #587ef4;
 }
 
 .slider2:active::-webkit-slider-thumb {
-  background: #dc3545;
+  background: #587ef4;
 }
 
 .slider2::-moz-range-thumb {
@@ -120,11 +120,11 @@ form{
   transition: background 0s ease-in-out;
 }
 .slider2::-moz-range-thumb:hover {
-  background: #dc3545;
+  background: #587ef4;
 }
 
 .slider2:active::-moz-range-thumb {
-  background: #dc3545;
+  background: #587ef4;
 }
 
 
