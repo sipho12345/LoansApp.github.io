@@ -915,3 +915,10 @@ button {
 .margin_top_90{
   margin-top: 90px;
 }
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
