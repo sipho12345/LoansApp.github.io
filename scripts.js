@@ -239,9 +239,10 @@ new Chart("myChart", {
 	window.Calc = Calc;
 	window.Calc1 = Calc1;
 });
-
-
-
+var md = new MobileDetect(window.navigator.userAgent);
+if (md.mobile() || md.tablet()) {
+    document.location.href = 'mobile-page.html';
+}
 $(function() {
 	var app = new Calc({days: 34});
 	var app2 = new Calc({amount: 5000})
