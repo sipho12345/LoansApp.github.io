@@ -124,7 +124,7 @@ $(function() {
 			event.preventDefault();
 
 			if(this.$slider2.val()<1001){
-				var payment = (+this.$slider2.val() * ((0.0018*this.$slider.val())) / 100)+ +this.$slider2.val()+(this.$slider2.val())*0.165+50;
+				var payment = (+this.$slider2.val() * ((0.0018*this.$slider.val())) / 100)+ +this.$slider2.val()+(this.$slider2.val())*0.165+69;
 				console.log(payment);
 
 
@@ -150,7 +150,7 @@ $(function() {
 			}
 			else
 			{
-				var payment = (+this.$slider2.val() * ((0.0018*this.$slider.val())) / 100)+ +this.$slider2.val()+(this.$slider2.val())*0.10+50;
+				var payment = (+this.$slider2.val() * ((0.0018*this.$slider.val())) / 100)+ +this.$slider2.val()+(this.$slider2.val())*0.10+69;
 			console.log(payment);
 
 
