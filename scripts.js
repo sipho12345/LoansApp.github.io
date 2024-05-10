@@ -178,7 +178,7 @@ $(function() {
 
 
 var xValues = ["Service fees", "Initial fees", "Interest", "Principal Amount"];
-var yValues = [50, this.$slider2.val()*0.165, (this.$slider2.val()*0.0018*this.$slider.val()).toFixed(2),this.$slider2.val()];
+var yValues = [70, this.$slider2.val()*0.16.5, (this.$slider2.val()*0.0018*this.$slider.val()).toFixed(2),this.$slider2.val()];
 var barColors = [
   "#b91d47",
   "#00aba9",
