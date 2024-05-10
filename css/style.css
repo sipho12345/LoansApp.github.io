@@ -243,8 +243,8 @@ button {
 }
 
 .logo {
-    width: 80%;
-    padding-top: -35%;
+    width: 100%;
+    padding-top: -100%;
     float: left;
 
 }
