@@ -249,7 +249,7 @@ button {
 .logo {
     width: 500%;
     padding-top: -35%;
-
+    max-width: 350px;
     float: left;
 
 }
