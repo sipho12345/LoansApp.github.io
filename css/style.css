@@ -247,9 +247,9 @@ button {
 }
 
 .logo {
-    width: 500%;
+    width: relative;
     padding-top: -35%;
-    max-width: 350px;
+    max-width: 300px;
     float: left;
 
 }
