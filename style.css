@@ -39,11 +39,11 @@ form{
 }
 
 .slider::-webkit-slider-thumb:hover {
-  background: #587ef4;
+  background: #4aafff;
 }
 
 .slider:active::-webkit-slider-thumb {
-  background: #587ef4;
+  background: #4aafff;
 }
 
 .slider::-moz-range-thumb {
@@ -58,7 +58,7 @@ form{
   transition: background 0s ease-in-out;
 }
 .slider::-moz-range-thumb:hover {
-  background: #4aafff
+  background: #4aafff;
 }
 
 .slider:active::-moz-range-thumb {
