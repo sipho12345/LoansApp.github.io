@@ -150,7 +150,7 @@ $(function() {
 			}
 			else
 			{
-				var payment = (+this.$slider2.val() * ((0.0018*this.$slider.val())) / 100)+ +this.$slider2.val()+(this.$slider2.val())*0.10+69;
+				var payment = (+this.$slider2.val() * (0.0018*this.$slider.val()))+ +this.$slider2.val()+(this.$slider2.val())*0.10+69;
 			console.log(payment);
 
 
