@@ -124,7 +124,7 @@ $(function() {
 			event.preventDefault();
 
 			if(this.$slider2.val()<1001){
-				var payment = (+this.$slider2.val() * (0.0018*this.$slider.val()))+ +this.$slider2.val()+(this.$slider2.val())*0.175+69;
+				var payment = (+this.$slider2.val() * ((0.0018*this.$slider.val())) / 100)+ +this.$slider2.val()+(this.$slider2.val())*0.175+69;
 				console.log(payment);
 
 
@@ -150,7 +150,7 @@ $(function() {
 			}
 			else
 			{
-				var payment = (+this.$slider2.val() * (0.0018*this.$slider.val()))+ +this.$slider2.val()+(this.$slider2.val())*0.115+69;
+				var payment = +this.$slider2.val() * ((0.0018*this.$slider.val()))+ +this.$slider2.val()+((this.$slider2.val())*0.115)+69;
 			console.log(payment);
 
 
@@ -239,20 +239,15 @@ new Chart("myChart", {
 	window.Calc = Calc;
 	window.Calc1 = Calc1;
 });
-var md = new MobileDetect(window.navigator.userAgent);
-if (md.mobile() || md.tablet()) {
-    document.location.href = 'mobile-page.html';
-}
+
+
+
 $(function() {
 	var app = new Calc({days: 34});
 	var app2 = new Calc({amount: 5000})
 
 });
 
-var siteWidth = 1280;
-var scale = screen.width /siteWidth;
-
-document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+', initial-scale='+scale+'');
 
 
 
