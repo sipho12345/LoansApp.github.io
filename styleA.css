@@ -31,7 +31,7 @@ ul {
 }
 
 main {
-  max-width: 400px;
+  max-width: 100%;
   margin: 1rem auto;
   background-color: #fff;
   padding: 1rem;
