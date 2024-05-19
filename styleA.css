@@ -78,7 +78,7 @@ form {
 
 form input:not(#type),
 form button {
-  width: 100%;
+  width: 400px;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
