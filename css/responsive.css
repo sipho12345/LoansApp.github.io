@@ -377,14 +377,14 @@ ul.link li {
 }
 .header_left { width: 100%; }
 .logo { width: 90%; }
-.banner_taital { font-size: 30px; padding-top: 30px; }
+.banner_taital { font-size: 25px; padding-top: 30px; }
 .banner_main { padding-left: 15px; }
 .btn_main { padding-top: 0px; }
-.contact_bt { width: 140px; margin-left: 10px; }
-.more_bt { width: 140px;}
+.contact_bt { width: 110px; margin-left: 10px; }
+.more_bt { width: 110px;}
 .header_right { width: 100%; padding-top: 30px; }
 .services_section { background: #ffffff; padding-bottom: 0px; margin-top: 0px; }
-.services_taital { font-size: 24px; }
+.services_taital { font-size: 18px; }
 .image_1 { padding-top: 30px; }
 .what_we_do_section_2 { margin-top: 0px; }
 .box_main { margin-top: 40px; }
@@ -393,8 +393,8 @@ ul.link li {
 .images_left { width: 100%; }
 .images_right { width: 100%; }
 .images_right { margin-top: 5px; margin-left: 0; }
-.what_taital { font-size: 21px; }
-.what_text_1 { width: 100%; font-size: 16px; }
+.what_taital { font-size: 15px; }
+.what_text_1 { width: 100%; font-size: 12px; }
 .image_11{ width: 50%;}
 .dummy_text { width: 100%; }
 .copyright_section { width: 90%; }
