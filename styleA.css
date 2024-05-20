@@ -248,3 +248,8 @@ ul li:hover .action {
     left: 0;
     border-radius: 100px;
 }
+.more_bt {
+    width: 170px;
+    float: left;
+    font-size: 16px;
+}
