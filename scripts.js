@@ -55,7 +55,7 @@ $(function() {
 			this.emailPat = /^[+a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i;
 		},
 		bind: function() {
-			this.$results.hide();
+			this.$results.show();
 			this.getDate();
 			this.getAmount();
 			this.validate();
