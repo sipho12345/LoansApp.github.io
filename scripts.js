@@ -132,7 +132,7 @@ $(function() {
 			this.$initamount.text(this.$slider2.val());
 			this.$pay.text(payment.toFixed(2) + this.currency);
 			this.$monthPay.text( (payment / this.$slider.val()).toFixed(2) + this.currency);
-			this.$fees.text((this.$slider2.val())*0.175);
+			this.$fees.text((parseFloat(this.$slider2.val()) * 0.175).toFixed(2));
 			this.$interest.text((this.$slider2.val()*0.0018*this.$slider.val()).toFixed(2));
 
 
@@ -158,7 +158,7 @@ $(function() {
 			this.$initamount.text(this.$slider2.val());
 			this.$pay.text(payment.toFixed(2) + this.currency);
 			this.$monthPay.text( (payment / this.$slider.val()).toFixed(2) + this.currency);
-			this.$fees.text((this.$slider2.val())*0.115);
+			this.$fees.text((parseFloat(this.$slider2.val()) * 0.115).toFixed(2));
 			this.$interest.text((this.$slider2.val()*0.0018*this.$slider.val()).toFixed(2));
 
 
