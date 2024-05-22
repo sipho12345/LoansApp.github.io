@@ -128,7 +128,7 @@ $(function() {
 				console.log(payment);
 
 
-			this.$results.fadeIn();
+			this.$results.show();
 			this.$initamount.text(this.$slider2.val());
 			this.$pay.text(payment.toFixed(2) + this.currency);
 			this.$monthPay.text( (payment / this.$slider.val()).toFixed(2) + this.currency);
@@ -154,7 +154,7 @@ $(function() {
 			console.log(payment);
 
 
-			this.$results.fadeIn();
+			this.$results.show();
 			this.$initamount.text(this.$slider2.val());
 			this.$pay.text(payment.toFixed(2) + this.currency);
 			this.$monthPay.text( (payment / this.$slider.val()).toFixed(2) + this.currency);
