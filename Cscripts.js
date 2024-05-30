@@ -1,3 +1,3 @@
 $('#myButton').click(function() {
-	$(this).text('Update');
+	$(this).text('Click to Update');
 });
